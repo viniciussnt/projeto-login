@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    section#login{
+    section#login{ /* CONFIGURAÇÕES PARA TABLET */
         width: 90vw;
 
+    }
+
+    section#login{
+        width: 80vw;
+        height: 370px;
     }
 
     section#login > div#imagem{
@@ -18,9 +23,10 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){ /* CONFIGURAÇÕES PARA DESKTOP */
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -40,5 +46,6 @@
 
     div#form > p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
